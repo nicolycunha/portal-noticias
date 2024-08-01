@@ -17,14 +17,23 @@
       background: linear-gradient(180deg, transparent 0%, #020617 100%);
     }
 
-    figcaption{
+    figcaption {
       position: absolute;
       bottom: 0;
       padding: 24px;
 
+      &:has(.text-lg) {
+        padding: 12px;
 
+        h2 {
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          overflow: hidden;
+          -webkit-box-orient: vertical;
+        }
+      }
 
-      h2{
+      h2 {
         margin-top: 8px;
       }
     }
