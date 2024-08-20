@@ -24,13 +24,6 @@
 
       &:has(.text-lg) {
         padding: 12px;
-
-        h2 {
-          display: -webkit-box;
-          -webkit-line-clamp: 3;
-          overflow: hidden;
-          -webkit-box-orient: vertical;
-        }
       }
 
       h2 {
